@@ -1,0 +1,22 @@
+{
+  "name": "talk-to-your-llm",
+  "version": "0.0.1",
+  "description": "jambonz websocket application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client-ws": "^0.1.41",
+    "bent": "^7.3.12",
+    "openai": "^4.33.0",
+    "pino": "^8.20.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
