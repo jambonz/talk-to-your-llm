@@ -1,6 +1,6 @@
 # talk-to-your-llm
 
-This is a basic voicebot connected to using their Assistant framework.
+This is a basic voicebot connected to OpenAI and using their Assistant framework to drive a voice conversation with the LLM.
 
 ## Installing
 
